@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+
+# Excel temp files
+~$*.xlsx
+*.xlsb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter / Fabric notebooks (keep .py files, ignore checkpoint noise)
+.ipynb_checkpoints/
+*.ipynb
+
+# Local data files — do not commit source data to GitHub
+*.xlsx
+*.csv
+*.parquet
+faac_downloads/
+
+# IDE
+.vscode/
+.idea/
